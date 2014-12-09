@@ -1,0 +1,11 @@
+.top-buffer{
+  margin-top:20px;
+}
+
+.col-breakdown{
+  font-size: 12px;
+}
+.col-breakdown .col-example {
+  border:1px solid red;
+  min-height: 40px;
+}
