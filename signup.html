@@ -14,144 +14,156 @@
 </head>
 
 <body>
+	<div id="wrap" class="margin-botom-3">
 
-	<div class="bg"></div>
+		<div class="bg"></div>
 
-	<div class="container">
-		<div class="row margin-top-2">
+		<div class="container">
+			<div class="row margin-top-2">
 
-			<div class="col-lg-1 ">
-				<img src="img/nhl.png" alt="logo" class="img-thumbnail">
+				<div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+					<img src="img/logo.jpg" alt="logo" class="img-thumbnail" style="width:100%">
+				</div>
+
+				<div class="navbar col-lg-4 col-lg-offset-7">
+					<div class="navbar-inner">
+						<ul class=" nav nav-tabs pull-right">
+							<!--			<li role="img" class="logo"></li>-->
+							<li role="presentation"><a href="index.html">Home</a>
+							</li>
+							<li role="presentation"><a href="standings.html">Standings</a>
+							</li>
+							<li role="presentation"><a href="locations.html">Locations</a>
+							</li>
+							<li role="presentation" class="active"><a href="#">Sign Up</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row margin-top-5">
+				<div class="col-xs-12 text-left">
+					<h3>Personal Details</h3>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-lg-offset-1 col-md-offset-1 margin-top-2">
+					<input type="text" class="form-control" placeholder="Name">
+				</div>
+				<div class="col-lg-4 col-md-4 col-lg-offset-1 col-md-offset-1 margin-top-2">
+					<input type="text" class="form-control" placeholder="Address">
+				</div>
+				<div class="col-lg-4 col-md-4 col-lg-offset-1 col-md-offset-1 margin-top-2">
+					<input type="text" class="form-control" placeholder="City">
+				</div>
+				<div class="col-lg-2 col-md-2 col-lg-offset-1 col-md-offset-1 margin-top-2">
+					<!--				<input type="text" class="form-control" placeholder="Province">-->
+					<div class="input-group-btn">
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" style="color:#999;">
+							Province
+							<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu pull-left">
+							<li><a tabindex="-1" href="#">ON</a>
+							</li>
+							<li><a tabindex="-1" href="#">QC</a>
+							</li>
+							<li><a tabindex="-1" href="#">BC</a>
+							</li>
+							<li><a tabindex="-1" href="#">AB</a>
+							</li>
+							<li><a tabindex="-1" href="#">MB</a>
+							</li>
+							<li><a tabindex="-1" href="#">SK</a>
+							</li>
+							<li><a tabindex="-1" href="#">NS</a>
+							</li>
+							<li><a tabindex="-1" href="#">NB</a>
+							</li>
+							<li><a tabindex="-1" href="#">NL</a>
+							</li>
+							<li><a tabindex="-1" href="#">PE</a>
+							</li>
+							<li><a tabindex="-1" href="#">NT</a>
+							</li>
+							<li><a tabindex="-1" href="#">YT</a>
+							</li>
+							<li><a tabindex="-1" href="#">NU</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+				<div class="col-lg-2 col-md-2 margin-top-2">
+					<input type="text" class="form-control" placeholder="Postal Code">
+				</div>
 			</div>
 
-			<div class="navbar col-lg-4 col-lg-offset-7">
-				<div class="navbar-inner">
-					<ul class=" nav nav-tabs pull-right">
-						<!--			<li role="img" class="logo"></li>-->
-						<li role="presentation"><a href="index.html">Home</a>
-						</li>
-						<li role="presentation"><a href="standings.html">Standings</a>
-						</li>
-						<li role="presentation"><a href="locations.html">Locations</a>
-						</li>
-						<li role="presentation" class="active"><a href="#">Sign Up</a>
-						</li>
-					</ul>
+			<div class="row margin-top-5">
+				<div class="col-xs-12 text-left">
+					<h3>Payment Details</h3>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+
+				<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 col-lg-offset-1 col-md-offset-1 margin-bottom-2">
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">Visa
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">Master Card
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">American Express
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">Discover
+					</label>
+				</div>
+				<div class="col-lg-4 col-md-4 col-lg-offset-1 col-md-offset-1 margin-top-2">
+					<input type="text" class="form-control" placeholder="Credit Card Number">
+				</div>
+				<div class="col-lg-4 col-md-4 col-lg-offset-1 col-md-offset-1 margin-top-2">
+					<input type="text" class="form-control" placeholder="Name On Card">
+				</div>
+				<div class="col-lg-2 col-md-2 col-lg-offset-1 col-md-offset-1 margin-top-2">
+					<input type="text" class="form-control" placeholder="Expiry Date">
+				</div>
+				<div class="col-lg-2 col-md-2 margin-top-2">
+					<input type="password" class="form-control" placeholder="CVV">
+				</div>
+			</div>
+
+			<div class="row margin-top-5">
+				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 col-lg-offset-5 col-md-offset-5 col-sm-offset-5 col-xs-offset-5">
+					<button type="button" id="submit" class="btn btn-primary" autocomplete="off">Submit</button>
 				</div>
 			</div>
 		</div>
 	</div>
+	<div id="footer">
+		<div class="container">
+			<p class="margin-top-1">&copy; Algonquin MAD&amp;D Inc.</p>
 
-	<div class="container">
-		<div class="row margin-top-5">
-			<div class="col-xs-12 text-left">
-				<h3>Personal Details</h3>
-			</div>
 		</div>
-		<hr>
-		<div class="row">
-			<form class="form-horizontal  " id="frm" role="form">
-			<div>
-				<h2>Personal Detail</h2>
-				<div class="form-group ">
-					<label class="col-sm-2 control-label">Name:</label>
-					<div class="col-sm-10 col-lg-2">
-						<input type="text" class="form-control input-sm" id="" placeholder="Name">
-					</div>
-				</div>
-				<div class="form-group  ">
-					<label for="" class="col-sm-2 control-label ">Address</label>
-					<div class="col-sm-10 col-lg-2 ">
-						<input type="text" class="form-control " id="" placeholder="Address1">
-					</div>
-				</div>
-
-
-				<div class="form-group">
-					<label for="" class="col-sm-2 control-label">Address</label>
-					<div class="col-sm-10 col-lg-2">
-						<input type="text" class="form-control" id="" placeholder="Address2">
-					</div>
-				</div>
-
-				<div class="form-group">
-					<label for="" class="col-sm-2 control-label">city</label>
-					<div class="col-sm-10 col-lg-2">
-						<input type="text" class="form-control" id="" placeholder="City">
-					</div>
-				</div>
-
-				<div class="form-group">
-					<label for="" class="col-sm-2 control-label">Province</label>
-					<div class="col-sm-10 col-lg-2">
-						<input type="text" class="form-control" id="" placeholder="Province">
-					</div>
-				</div>
-
-				<div class="form-group">
-					<label for="" class="col-sm-2 control-label">Postal code</label>
-					<div class="col-sm-10 col-lg-2">
-						<input type="text" class="form-control" id="" placeholder="Postal code">
-					</div>
-				</div>
-			</div>
-			</form>
-		</div>
-		
-		<div class="row margin-top-5">
-			<h4>Payment Details</h4>
-		</div>
-		<hr>
-		
-		<div class="row">
-			
-		<form class="form-horizontal  " id="frm" role="form">
-			<div>
-				<h3>Credit Card Detail</h3>
-				<div class="form-group">
-					<label for="" class="col-sm-2 control-label">Credit card type</label>
-
-				</div>
-
-				<div class="form-group ">
-					<label for="" class="col-sm-2 control-label">Credit card number</label>
-					<div class="col-sm-10 col-lg-2">
-						<input type="text" class="form-control" id="" placeholder="Credit card number">
-					</div>
-				</div>
-
-				<div class="form-group">
-					<label for="" class="col-sm-2 control-label">Name On Card</label>
-					<div class="col-sm-10 col-lg-2">
-						<input type="text" class="form-control" id="" placeholder="">
-					</div>
-				</div>
-
-				<div class="form-group">
-					<label for="" class="col-sm-2 control-label">Security code</label>
-					<div class="col-sm-10 col-lg-2">
-						<input type="text" class="form-control" id="" placeholder="Security Code">
-					</div>
-				</div>
-				<div class="form-group">
-					<div class="col-sm-offset-2 col-sm-10">
-						<button type="submit" class="btn btn-default">Sign in</button>
-					</div>
-				</div>
-			</div>
-		</form>
-		</div>
-
 	</div>
-
-
-
-
-
-
 
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-	<scrip src="js/index.js"></scrip>
+	<script src="js/bootstrap.min.js"></script>
+	<!--	<scrip src="js/index.js"></scrip>-->
+	<script type="text/javascript">
+		$(".dropdown-menu li a").click(function () {
+			$(this).parents(".input-group-btn").find('.btn').val($(this).data('value'));
+			$(this).parents(".input-group-btn").find('.btn').html(
+				$(this).text() + " <span class=\"caret\"></span>"
+			);
+		});
+	</script>
 
 </body>
 
